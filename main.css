@@ -9,6 +9,13 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
 p {
     margin: 0;
     padding: 0;
