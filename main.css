@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3d3d3d;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.team {
+
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.team-title {
+    font-size: 36px;
+    letter-spacing: -0.015em;
+    font-family: "GotB", sans-serif;
+    margin-bottom: 55px;
+    color: #fff;
+}
+
+.trener {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 100px;
+    color: #fff;
+}
+
+.trener-photo {
+    width: 486px;
+}
+
+.trener-photo img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.trener-slider {
+    width: 50%;
+
+}
+
+.trener-slide {
+    overflow: hidden;
+}
+
+.trener-name {
+    font-size: 28px;
+    margin-bottom: 22px;
+}
+
+.trener-quote {
+    margin-bottom: 30px;
+    font-size: 26px;
+    width: 440px;
+}
+
+.trener-descr {
+    margin-bottom: 35px;
+    font-size: 20px;
+    line-height: 148.2%;
+}
+
+.trener-list {}
+
+.trener-item {
+    position: relative;
+    margin-bottom: 7px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: "GotL", sans-serif;
+    line-height: 133.7%;
+}
+
+.trener-item::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #BA2B31;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: -20px;
+}
+
+.trener-otziv-title {
+    font-size: 28px;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.trener-otziv {
+    margin-bottom: 35px;
+    font-size: 20px;
+    line-height: 148.2%;
+}
+
+.trener-otziv-name {
+    font-size: 18px;
+    text-align: right;
+}
+
+.slick-dots li {
+    border-radius: 50px;
+    background: #fff;
+    width: 15px;
+    height: 15px;
+}
+
+.slick-dots li.slick-active {
+    background: #000;
+}
+
+.slick-prev {
+    left: -55px;
+}
+
+.slick-next {
+    right: -55px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 30px;
+}
